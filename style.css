@@ -1,0 +1,56 @@
+/* === Footer Styling === */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 30px 20px;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1 1 150px;
+}
+
+.footer-section h4,
+.footer-section h5 {
+  margin-bottom: 10px;
+  color: #f2a365;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin: 5px 0;
+}
+
+.footer-section ul li a {
+  color: #ccc;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #444;
+  margin-top: 20px;
+}
+
+.social-icons img {
+  width: 24px;
+  margin-right: 10px;
+  filter: brightness(0) invert(1);
+}
